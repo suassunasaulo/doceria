@@ -1,11 +1,39 @@
-.Cabecalho{
-box-sizing: border-box;
-position: center;
-width: 1282px;
-height: 288px;
-left: 79px;
-top: 4px;
-background: #FAE3EB;
-border: 1px solid #866969;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.Cabecalho {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1282px;
+    height: 288px;
+    margin: 20px;
+    padding: 10px;
+    background: #FAE3EB;
+}
+
+.menu {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    display: flex;
+    list-style-type: none;
+    padding-right: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight:100;
+}
+
+.Banner {
+    height: 543px;
+    width: 1282px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.coleção{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-size: 25px;
+text-align: center;
+
 }
