@@ -1,0 +1,11 @@
+.Cabecalho{
+box-sizing: border-box;
+position: center;
+width: 1282px;
+height: 288px;
+left: 79px;
+top: 4px;
+background: #FAE3EB;
+border: 1px solid #866969;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
