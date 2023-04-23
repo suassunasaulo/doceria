@@ -232,7 +232,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px dashed #aaa;
+    
     padding: 20px;
   }
 
@@ -242,6 +242,7 @@ footer {
     font-family: 'Poppins';
     flex: 1;
     text-align: center;
+    height: 234px;
   }
 
   .coluna h3{
@@ -249,12 +250,20 @@ footer {
     font-style: normal;
     font-weight: 275;
     color:#737272;
+    margin-top: 5px;
   }
   
   .coluna:not(:last-child) {
-    border-right: 1px dashed #aaa;
+    border-right: 1px dashed #737272;
+    
     padding-right: 20px;
     margin-right: 20px;
+  }
+
+  .coluna p{
+    
+ text-align: start;
+ margin-left: 50px;
   }
 
 .rodape{
