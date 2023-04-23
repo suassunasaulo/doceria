@@ -46,3 +46,85 @@
     text-decoration: none;
     color:#737272;
 }
+
+.titulo{
+    width: 1440px;
+    height: 115px;
+    background-color: #FAE3EB;
+}
+
+.titulo h1{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: #83545f;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.D_festa{
+    width: 1440px;
+    height: 1391px;
+    background-color: #FAE3EB;
+    
+}
+
+.D_festa div{
+    width: 1440px;
+    height: 62px;
+    background-color: #C27082;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.D_festa h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+
+.D_festa h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 40px;
+    line-height: 50px;
+    color: #737272;
+    text-align: start;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.lista{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 30px;
+    line-height: 37px;
+    margin-left: 40px;
+    color: #737272;
+}
+
+
+
+.D_festa img{
+    width: 307px;
+    height: 307px;
+    border-radius: 50px;
+    
+}
+
