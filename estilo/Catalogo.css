@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.Cabecalho {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 214px;
+    margin: 20px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    /* Adicionado para centralizar os itens de menu */
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    /* Reduzir o tamanho da fonte */
+    font-style: normal;
+    font-weight: 100;
+    color: #737272;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    /* Impede que os itens sejam quebrados em várias linhas */
+}
+
+.menu li {
+    flex: 1;
+    /* Distribui o espaço igualmente entre os itens de lista */
+    text-align: center;
+    margin-left: 60px;
+    /* Adicione margem esquerda para espaçamento */
+    margin-right: 60px;
+    /* Adicione margem direita para espaçamento */
+}
+
+.menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* Adicione padding para espaçamento interno */
+    text-decoration: none;
+    color:#737272;
+}
