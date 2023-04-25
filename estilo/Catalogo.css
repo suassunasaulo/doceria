@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .Cabecalho {
     display: flex;
     align-items: center;
@@ -44,16 +45,16 @@
     padding: 10px;
     /* Adicione padding para espaçamento interno */
     text-decoration: none;
-    color:#737272;
+    color: #737272;
 }
 
-.titulo{
+.titulo {
     width: 1440px;
     height: 115px;
     background-color: #FAE3EB;
 }
 
-.titulo h1{
+.titulo h1 {
     font-family: 'Poppins';
     font-size: 60px;
     color: #83545f;
@@ -64,17 +65,17 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    
+
 }
 
-.D_festa{
+.D_festa {
     width: 1440px;
-    height: 1391px;
+    height: 1650px;
     background-color: #FAE3EB;
-    
+
 }
 
-.D_festa div{
+.fundo1 {
     width: 1440px;
     height: 62px;
     background-color: #C27082;
@@ -85,7 +86,7 @@
     align-items: center;
 }
 
-.D_festa h2{
+.D_festa h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -97,7 +98,16 @@
     color: #FAE3EB;
 }
 
-.D_festa h3{
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+
+.lista h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
@@ -109,7 +119,7 @@
     margin-left: 40px;
 }
 
-.lista{
+.lista {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
@@ -120,11 +130,82 @@
 }
 
 
+.img_pedido1 img {
 
-.D_festa img{
     width: 307px;
     height: 307px;
     border-radius: 50px;
-    
+    margin-top: 150px;
+    margin-right: 80px;
+
+}
+
+.img_pedido2 img {
+
+    width: 307px;
+    height: 307px;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-right: 80px;
+
+}
+
+.D_festa h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 30px;
+    line-height: 37px;
+    margin-left: 40px;
+    color: #737272;
+}
+
+.Trufas {
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.Trufas h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+
+.fundo2 {
+    width: 1440px;
+    height: 62px;
+    background-color: #C27082;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Copinhos {
+    width: 1440px;
+    height: 900px;
+    background: #FAE3EB;
+
+}
+
+.Copinhos h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB; 
 }
 
