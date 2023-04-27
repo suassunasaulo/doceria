@@ -1,45 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-body{
-  margin: 0px;
-  padding: 0px;
+body {
+    margin: 0px;
+    padding: 0px;
 }
+
 .Cabecalho {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    width: 1440px;
+    width: 100%;
     height: 214px;
-    margin: 20px;
+    margin: 0 auto;
     padding: 10px;
     background: #FFFFFF;
+}
+
+nav {
+    flex-grow: 1;
 }
 
 .menu {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
-    /* Adicionado para centralizar os itens de menu */
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    /* Reduzir o tamanho da fonte */
     font-style: normal;
     font-weight: 100;
     color: #737272;
     text-decoration: none;
     flex-wrap: nowrap;
-    /* Impede que os itens sejam quebrados em várias linhas */
+    margin: 0;
+    text-align: center;
 }
 
 .menu li {
     flex: 1;
-    /* Distribui o espaço igualmente entre os itens de lista */
     text-align: center;
-    margin-left: 60px;
-    /* Adicione margem esquerda para espaçamento */
-    margin-right: 60px;
-    /* Adicione margem direita para espaçamento */
 }
 
 .menu li a {
@@ -47,20 +45,20 @@ body{
     width: 100%;
     height: 100%;
     padding: 10px;
-    /* Adicione padding para espaçamento interno */
     text-decoration: none;
     color: #737272;
 }
 
 .titulo {
-    width: 1440px;
+    width: 100%;
     height: 115px;
+    margin: 0 auto 0 auto;
     background-color: #FAE3EB;
 }
 
 .titulo h1 {
     font-family: 'Poppins';
-    font-size: 60px;
+    font-size: 18px;
     color: #83545f;
     text-align: center;
     font-style: normal;
@@ -73,28 +71,19 @@ body{
 }
 
 .D_festa {
-    width: 1440px;
-    height: 1650px;
+    width: 100%;
+    height: 1350px;
+    margin: 0 auto 0 auto;
     background-color: #FAE3EB;
 
 }
 
-.fundo1 {
-    width: 1440px;
-    height: 62px;
-    background-color: #C27082;
-    border-radius: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .D_festa h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 16px;
     line-height: 90px;
     display: flex;
     align-items: center;
@@ -115,7 +104,7 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
-    font-size: 40px;
+    font-size: 14px;
     line-height: 50px;
     color: #737272;
     text-align: start;
@@ -127,7 +116,7 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
-    font-size: 30px;
+    font-size: 12px;
     line-height: 37px;
     margin-left: 40px;
     color: #737272;
@@ -139,7 +128,7 @@ body{
     width: 307px;
     height: 307px;
     border-radius: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: 80px;
 
 }
@@ -149,7 +138,7 @@ body{
     width: 307px;
     height: 307px;
     border-radius: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: 80px;
 
 }
@@ -158,28 +147,29 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 275;
-    font-size: 30px;
+    font-size: 12px;
     line-height: 37px;
     margin-left: 40px;
     color: #737272;
 }
 
 .Trufas {
-    width: 100% ;
-    height: 900px;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto 0 auto;
     background: #FFFFFF;
-  
+
 }
 
-.borda{
-  border: solid red 1px;
+.borda {
+    border: solid red 1px;
 }
 
 .Trufas h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 16px;
     line-height: 90px;
     display: flex;
     align-items: center;
@@ -187,10 +177,10 @@ body{
     color: #FAE3EB;
 }
 
-.fundo2 {
-    width: 500px;
-  margin:0 auto 0 auto;
-    height: 62px;
+.fundo {
+    width: 30%;
+    margin: 0 auto 0 auto;
+    height: 20px;
     background-color: #C27082;
     border-radius: 50px;
     text-align: center;
@@ -201,10 +191,12 @@ body{
 }
 
 .Copinhos {
-    width: 1440px;
-    height: 900px;
+
+    width: 100%;
+    height: 700px;
+    margin: 0 auto 0 auto;
     background: #FAE3EB;
-  padding-top: 20px;
+    padding-top: 20px;
 
 }
 
@@ -212,12 +204,76 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 16px;
     line-height: 90px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FAE3EB; 
+    color: #FAE3EB;
 }
 
+.Verrines {
+    width: 100%;
+    height: 1050px;
+    margin: 0 auto 0 auto;
+    background: #FFFFFF;
 
+}
+
+.Verrines h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+
+.Brownies {
+    width: 100%;
+    height: 407px;
+    margin: 0 auto 0 auto;
+    background: #FFFFFF;
+
+}
+
+.Brownies h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+.Brownies h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    line-height: 37px;
+    margin-left: 40px;
+    color: #737272;
+    align-self: flex-start;
+
+}
+
+.Itens_individuais {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_individual img {
+
+    width: 307px;
+    height: 307px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+
+}
