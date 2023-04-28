@@ -49,6 +49,12 @@ nav {
     color: #737272;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo {
     width: 100%;
     height: 115px;
@@ -236,7 +242,7 @@ nav {
     width: 100%;
     height: 407px;
     margin: 0 auto 0 auto;
-    background: #FFFFFF;
+    background: #FAE3EB;
 
 }
 
@@ -276,4 +282,180 @@ nav {
     margin-top: 50px;
     margin-right: 80px;
 
+}
+
+.Tortas {
+    width: 100%;
+    height: 415px;
+    margin: 0 auto 0 auto;
+    background: #FFFFFF;
+
+}
+
+.Tortas h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+.Tortas h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    line-height: 37px;
+    padding-top: 150px;
+    margin-left: 40px;
+    color: #737272;
+    align-self: flex-start;
+}
+
+.Pudim {
+    width: 100%;
+    height: 407px;
+    margin: 0 auto 0 auto;
+    background: #FAE3EB;
+
+}
+
+.Pudim h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+.Pudim h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    line-height: 37px;
+    margin-left: 40px;
+    padding-top: 150px;
+    color: #737272;
+    align-self: flex-start;
+
+}
+
+.Ovos_pascoa {
+    width: 100%;
+    height: 1350px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+}
+
+
+.Ovos_pascoa h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+
+.Barra {
+    width: 100%;
+    height: 415px;
+    margin: 0 auto 0 auto;
+    background: #FAE3EB;
+
+}
+
+.Barra h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAE3EB;
+}
+.Barra h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    line-height: 37px;
+    padding-top: 150px;
+    margin-left: 40px;
+    color: #737272;
+    align-self: flex-start;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto 0 auto;
+    
+  }
+
+  
+  
+  .coluna {
+    font-family: 'Poppins';
+    flex: 1;
+    text-align: center;
+    height: 234px;
+    
+  }
+
+  .coluna h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    color:#737272;
+    margin-top: 5px;
+  }
+  
+  .coluna:not(:last-child) {
+    border-right: 1px dashed #737272;
+    
+    margin-right: 20px;
+  }
+
+  .coluna p{
+    
+ text-align: start;
+ margin-left: 50px;
+  }
+
+.rodape{
+    width: 100% ;
+    height: 429px;
+    margin:0 auto 0 auto;
+    background-color: white;
+}
+
+.direitos{
+    width: 100% ;
+    height: 69px;
+    margin:0 auto 0 auto;
+    background-color: #FAE3EB;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #737272;
+    position: absolute;
+    font-weight: 275;
+    line-height: 21px;
+    
 }
