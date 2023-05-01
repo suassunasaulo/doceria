@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.borda {
+    border: solid red 1px;
+}
+
+.Cabecalho {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 214px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    color: #737272;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: #737272;
+}
+
+h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #83545F;
+text-align: center;
+}
+
+.formulário{
+    width: 100%;
+    height: 1050px;
+    background-color: #FAE3EB;
+}
+
+.formulário h2{
+ font-family: 'Poppins';
+font-style: normal;
+font-size: 16px;
+text-align: center;
+color: #83545F;
+padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto 0 auto;
+    
+  }
+
+  
+  
+  .coluna {
+    font-family: 'Poppins';
+    flex: 1;
+    text-align: center;
+    height: 234px;
+    
+  }
+
+  .coluna h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    color:#737272;
+    margin-top: 5px;
+  }
+  
+  .coluna:not(:last-child) {
+    border-right: 1px dashed #737272;
+    
+    margin-right: 20px;
+  }
+
+  .coluna p{
+    
+ text-align: start;
+ margin-left: 50px;
+  }
+
+.rodape{
+    width: 100% ;
+    height: 429px;
+    margin:0 auto 0 auto;
+    background-color: white;
+}
+
+.direitos{
+    width: 100% ;
+    height: 69px;
+    margin:0 auto 0 auto;
+    background-color: #FAE3EB;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #737272;
+    position: absolute;
+    font-weight: 275;
+    line-height: 21px;
+    
+}
