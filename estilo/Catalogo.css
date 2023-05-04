@@ -115,7 +115,7 @@ header{
     color: #737272;
     text-align: start;
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 .lista {
@@ -124,7 +124,7 @@ header{
     font-weight: 275;
     font-size: 12px;
     line-height: 37px;
-    margin-left: 40px;
+    margin-left: 100px;
     color: #737272;
 }
 
@@ -135,7 +135,7 @@ header{
     height: 307px;
     border-radius: 50px;
     margin-top: 50px;
-    margin-right: 80px;
+    margin-right: 150px;
 
 }
 
@@ -145,7 +145,7 @@ header{
     height: 307px;
     border-radius: 50px;
     margin-top: 50px;
-    margin-right: 80px;
+    margin-right: 150px;
 
 }
 
@@ -155,7 +155,7 @@ header{
     font-weight: 275;
     font-size: 12px;
     line-height: 37px;
-    margin-left: 40px;
+    margin-left: 100px;
     color: #737272;
 }
 
@@ -263,7 +263,7 @@ header{
     font-weight: 275;
     font-size: 12px;
     line-height: 37px;
-    margin-left: 40px;
+    margin-left: 100px;
     color: #737272;
     align-self: flex-start;
 
@@ -280,7 +280,7 @@ header{
     height: 307px;
     border-radius: 50px;
     margin-top: 50px;
-    margin-right: 80px;
+    margin-right: 150px;
 
 }
 
@@ -340,7 +340,7 @@ header{
     font-weight: 275;
     font-size: 12px;
     line-height: 37px;
-    margin-left: 40px;
+    margin-left: 250px;
     padding-top: 150px;
     color: #737272;
     align-self: flex-start;

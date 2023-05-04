@@ -74,42 +74,35 @@ nav {
     text-align: center;
     color: #83545F;
     margin:0 auto 0 auto;
-
-
 }
-
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
+  }
 .esquerda {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #737272;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 54px;
     margin-left: 185px;
-
     text-align: left;
     flex: 0 0 auto;
-
 }
-
 .centro {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #737272;
     font-size: 14px;
+    line-height: 54px;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
-    flex: 1;
-}
-
+    flex: 0 0 auto;
+    margin: 0 auto 0 auto;
+    
+    
+  }
 .direita {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -117,16 +110,13 @@ nav {
     font-weight: 400;
     font-size: 14px;
     line-height: 54px;
-
     margin-right: 185px;
     text-align: right;
-
 }
 
 .esquerda {
     text-align: center;
 }
-
 .esquerda img {
     display: block;
     margin: 0 auto;
@@ -135,30 +125,18 @@ nav {
     border-radius: 50px;
     margin-top: 10px;
 }
-
-/* Estilos para as imagens de ovos gourmet */
-.centro {
-    text-align: center;
-}
-
 .centro img {
     display: block;
     margin: 0 auto;
     width: 264px;
     height: 255px;
     border-radius: 50px;
-    margin-top: 10px;
-}
-
-
-
-
-
-/* Estilos para as imagens de barras recheadas */
+    margin-top: 10px; 
+     
+  }
 .direita {
     text-align: center;
 }
-
 .direita .imagem_direita img {
     display: block;
     margin: 0 auto;
@@ -167,7 +145,6 @@ nav {
     border-radius: 50px;
     margin-top: 10px;
 }
-
 .botão_container {
     display: flex;
     justify-content: center;
@@ -175,7 +152,6 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  
   .fundo {
     background: #C27082;
     border-radius: 50px;
@@ -185,7 +161,7 @@ nav {
     justify-content: center;
     align-items: center;
   }
-  
+
   .fundo a {
    
     text-decoration: none;
