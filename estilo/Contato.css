@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins';
 }
 
 .borda {
@@ -53,7 +54,7 @@ nav {
     color: #737272;
 }
 
-h1 {
+.titulo {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -64,21 +65,56 @@ h1 {
 
 .formulario {
     width: 100%;
-    height: 390px;
+    height: 317px;
     background-color: #FAE3EB;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.formulario p,
-label,
-legend {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 14px;
-    color: #737272;
+.my-form {
+    background-color: #FAE3EB;
+    color: #9E9DB8;
+    padding: 20px;
+    border-radius: 10px;
+  }
 
+  ::placeholder {
+  color: #9E9DB8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+::textarea{
+    color: #9E9DB8;
+}
+
+  
+  .form-group {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-control {
+    border-color: #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    background-color: #C27082;
+    border-color: #C27082;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  
+
+  button[type="submit"] {
+    background-color: #C27082;
+    border-radius: 50px;
+    color: #FFF; /* adicione esta linha para alterar a cor do texto do botão */
+  outline: none;
+  border: none;
 }
 
 footer {
@@ -88,9 +124,11 @@ footer {
     margin: 0 auto 0 auto;
 
 }
-
-
-
+button[type="submit"]:hover {
+    background-color: #C27082;
+    border-color: #C27082;
+    color: #FFF;
+  }
 .coluna {
     font-family: 'Poppins';
     flex: 1;
