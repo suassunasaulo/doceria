@@ -164,12 +164,19 @@ button[type="submit"]:hover {
     background-color: white;
 }
 
-.direitos {
+.direitos{
     width: 100%;
     height: 69px;
     margin: 0 auto 0 auto;
     background-color: #FAE3EB;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitos_autorais{
+    
     font-size: 14px;
     font-family: 'Poppins';
     font-style: normal;
@@ -177,5 +184,4 @@ button[type="submit"]:hover {
     position: absolute;
     font-weight: 275;
     line-height: 21px;
-
 }
